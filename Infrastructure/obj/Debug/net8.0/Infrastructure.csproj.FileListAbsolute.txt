@@ -1,0 +1,16 @@
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/bin/Debug/net8.0/Infrastructure.dll
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/bin/Debug/net8.0/Core.dll
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/bin/Debug/net8.0/Core.pdb
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CopyComplete
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.dll
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
+/Users/anthonysullivan/code/dotnet/skinet/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
