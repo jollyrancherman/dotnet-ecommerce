@@ -4,10 +4,30 @@ namespace Core.Specifications
 {
     public class ProductsWithTypesAndBrandsSpecification : BaseSpecification<Product>
     {
-        public ProductsWithTypesAndBrandsSpecification()
+        public ProductsWithTypesAndBrandsSpecification(ProductSpecParams productParams) 
+            : base(x => 
+                (!productParams.BrandId.HasValue || x.ProductBrandId == productParams.BrandId) &&
+                (!productParams.TypeId.HasValue || x.ProductTypeId == productParams.TypeId)
+            )
         {
             AddInclude(p => p.ProductType);
             AddInclude(p => p.ProductBrand);
+
+            if(!string.IsNullOrEmpty(productParams.Sort))
+            {
+                switch(productParams.Sort)
+                {
+                    case "priceAsc":
+                        AddOrderBy(p => p.Price);
+                        break;
+                    case "priceDesc":
+                        AddOrderByDescending(p => p.Price);
+                        break;
+                    default:
+                        AddOrderBy(p => p.Name);
+                        break;
+                }
+            }
         }
         public ProductsWithTypesAndBrandsSpecification(int id) : base(x => x.Id == id)
         {
