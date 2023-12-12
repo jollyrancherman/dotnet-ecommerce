@@ -13,6 +13,12 @@ namespace Core.Specifications
         public int? BrandId { get; set; } // ? means nullable
         public int? TypeId { get; set; } // ? means nullable
         public string Sort { get; set; } // sort by name, price, etc.
+        private string _search;
+        public string Search
+        {
+            get => _search;
+            set => _search = value.ToLower(); // convert to lowercase
+        }
 
     }
 }
