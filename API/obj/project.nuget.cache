@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uDnk7BksyjQjlcjUowAtS3t749hf1iTPmJFZMsm0kM0ZH/pQmFJEHxKARQVw7x5z3HTmoz6OoV9Bu92jp78Bzw==",
+  "dgSpecHash": "VI6Thh4c2uuti9ozvLvcxdbJv/0j/ecaT2msCKy8c20x6Uu8S7f7lFE11WNl9uINIbirhsRpHObP//+kgR501w==",
   "success": true,
   "projectFilePath": "/Users/anthonysullivan/code/dotnet/skinet/API/API.csproj",
   "expectedPackageFiles": [
@@ -35,10 +35,12 @@
     "/Users/anthonysullivan/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/Users/anthonysullivan/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/anthonysullivan/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/anthonysullivan/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/Users/anthonysullivan/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "/Users/anthonysullivan/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
     "/Users/anthonysullivan/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
     "/Users/anthonysullivan/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "/Users/anthonysullivan/.nuget/packages/stackexchange.redis/2.7.10/stackexchange.redis.2.7.10.nupkg.sha512",
     "/Users/anthonysullivan/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/anthonysullivan/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/anthonysullivan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

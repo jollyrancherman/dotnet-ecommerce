@@ -133,3 +133,5 @@
 /Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/AutoMapper.dll
 /Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/API.staticwebassets.runtime.json
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/StackExchange.Redis.dll
