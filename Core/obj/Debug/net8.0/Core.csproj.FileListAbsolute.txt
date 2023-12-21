@@ -10,3 +10,4 @@
 /Users/anthonysullivan/code/dotnet/skinet/Core/obj/Debug/net8.0/refint/Core.dll
 /Users/anthonysullivan/code/dotnet/skinet/Core/obj/Debug/net8.0/Core.pdb
 /Users/anthonysullivan/code/dotnet/skinet/Core/obj/Debug/net8.0/ref/Core.dll
+/Users/anthonysullivan/code/dotnet/skinet/Core/obj/Debug/net8.0/Core.csproj.AssemblyReference.cache

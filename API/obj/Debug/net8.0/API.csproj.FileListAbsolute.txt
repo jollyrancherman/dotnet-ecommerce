@@ -135,3 +135,13 @@
 /Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/API.staticwebassets.runtime.json
 /Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
 /Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/StackExchange.Redis.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/System.Security.Permissions.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/anthonysullivan/code/dotnet/skinet/API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
