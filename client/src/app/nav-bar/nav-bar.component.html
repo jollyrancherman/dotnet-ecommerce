@@ -36,7 +36,56 @@
         {{ getCount(basket.items) }}
       </div>
     </a>
-    <a href="#" class="btn btn-outline-secondary me-2">Login</a>
-    <a href="#" class="btn btn-outline-secondary me-3">Sign up</a>
+    <ng-container *ngIf="(accountService.currentUser$ | async) === null">
+      <a routerLink="/account/login" class="btn btn-outline-secondary me-2"
+        >Login</a
+      >
+      <a routerLink="/account/register" class="btn btn-outline-secondary me-3"
+        >Sign up</a
+      >
+    </ng-container>
+
+    <ng-container *ngIf="accountService.currentUser$ | async as user">
+      <div class="btn-group" dropdown>
+        <button
+          id="button-basic"
+          dropdownToggle
+          type="button"
+          class="btn dropdown-toggle"
+          aria-controls="dropdown-basic"
+        >
+          <strong> Welcome {{ user.displayName }} </strong>
+          <span class="caret"></span>
+        </button>
+        <ul
+          id="dropdown-basic"
+          *dropdownMenu
+          class="dropdown-menu"
+          role="menu"
+          aria-labelledby="button-basic"
+        >
+          <li role="menuitem">
+            <a class="dropdown-item" routerLink="/basket">
+              <i class="fa fa-shopping-cart me-3"></i> View Basket
+            </a>
+          </li>
+          <li role="menuitem">
+            <a class="dropdown-item" routerLink="/orders">
+              <i class="fa fa-history me-3"></i> View Orders
+            </a>
+          </li>
+          <li class="divider dropdown-divider"></li>
+          <li role="menuitem">
+            <a
+              class="dropdown-item"
+              style="cursor: pointer"
+              (click)="accountService.logout()"
+            >
+              <i class="fa fa-sign-out me-3"></i> Sign out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </ng-container>
   </div>
 </header>
