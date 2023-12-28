@@ -1,5 +1,6 @@
 using API.Errors;
 using Core.Interfaces;
+using Infrastructure;
 using Infrastructure.Data;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -30,9 +31,11 @@ namespace API.Extensions
             });
 
             // services.AddScoped means that the service will be created once per request within the scope
-            services.AddScoped<IBasketRepository, BasketRepository>();
-            services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.Configure<ApiBehaviorOptions>(options => 

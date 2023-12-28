@@ -17,6 +17,8 @@ namespace Infrastructure.Data.Config
                     a.WithOwner();
                 });
             
+            builder.Navigation(a => a.ShipToAddress).IsRequired();
+
             // OrderStatus is an enum, but we want to store it as a string in the database
             // so we need to tell EF how to convert it
             builder.Property(s=>s.Status)
