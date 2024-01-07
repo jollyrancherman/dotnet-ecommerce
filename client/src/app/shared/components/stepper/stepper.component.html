@@ -4,10 +4,11 @@
       <div class="d-grid">
         <button
           (click)="onClick(i)"
+          [disabled]="true"
           [class.active]="i === selectedIndex"
           class="nav-link py-3 text-uppercase fw-bold"
         >
-          {{ step.label }}:{{ step.completed }}
+          {{ step.label }}
         </button>
       </div>
     </li>
